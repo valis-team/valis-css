@@ -1,0 +1,55 @@
+#################################
+# Valis Generic .gitignore file #
+#################################
+
+# macOS-specific files
+.DS_Store
+**/.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+~$*
+$Recycle.Bin/
+RECYCLER/
+
+# Private key files
+*.key
+*.pem
+
+# Environment variable files
+*.env
+
+# Secrets directory
+secrets/
+
+# Log files
+*.log
+logs/
+
+# Temporary files and directories
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Configuration files (optional: remove if you need some configs tracked)
+*.config
+*.cfg
+*.ini
+
+# Sensitive data files
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.old
+*.backup
+
+# Credentials files
+*.credentials
